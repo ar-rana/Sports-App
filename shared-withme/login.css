@@ -1,0 +1,130 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and font styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0C0C0C;
+}
+
+/* Center the container horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the left section */
+.left-section {
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    background-color: #171717;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    /* Add your logo image here */
+}
+
+.Tagline {
+    position: absolute;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Style the right section */
+.right-section {
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+#email{
+    display:flex;
+    align-items: flex-end;
+
+}
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 160px;
+    margin-left: 70px;
+}
+
+.New_User{
+    margin-left: 70px;
+    margin-bottom: 70px;
+    font-size:20px;
+}
+.email{
+    font-size:20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.password{
+    font-size:20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 2.5%;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size:20px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-links {
+    margin-top: 100px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.forgot-password {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    display: block;
+    float: right;
+    margin-right: 120px;
+}

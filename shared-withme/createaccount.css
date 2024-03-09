@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0C0C0C;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    background-color: #171717;
+    color: white;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.left img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: block;
+    margin: 0 auto;  
+}
+
+.right form input,
+.right form select,
+.right form button {
+    display: block;
+    width: 80%;
+    padding: 2.5%;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.right form select {
+    appearance: none;
+    background: url('arrow-down.png') no-repeat right center;
+    background-size: 20px;
+    padding-right: 30px;
+}
+
+.right form button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-links {
+    margin-top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}
+
+.already_account{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+.Tagline {
+    position: absolute;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
