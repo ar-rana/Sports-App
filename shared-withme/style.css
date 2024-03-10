@@ -1,0 +1,492 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*nav*/
+
+.navbar{
+    height: 5.5rem;
+    width: 100%;
+    /* background-image: linear-gradient(to right bottom,rgb(5, 5, 5) ,#392842 13rem); */
+    background-image: linear-gradient(to top,black,#F9F7C9 40rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*navlogo*/
+
+.logosec{
+    background-color: none;
+    height: 3.5rem;
+    width: 15%;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.image{
+    position: relative;
+    top: 0rem;
+    background-image: url(logo.png);
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logotext{
+    padding-left: 0rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*navlinks*/
+
+.linksec{
+    width: 30%;
+    background-color: none;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+main{
+    background-image: linear-gradient(to bottom,#35374B,#AAD9BB ,#D5F0C1,#F9F7C9 80rem,#FFCF96 170rem);
+    /* background-image: linear-gradient(to bottom, #80BCBD,#AAD9BB,#D5F0C1,#F9F7C9 60rem); */
+}
+
+/*herosec1*/
+
+.herosec1{
+    height: 25rem;
+    width: 100%;
+    /* background-color: #535C91; */
+    /* background-image: linear-gradient(to right top, #af90c3,#5e679f 60rem); */
+    display: flex;
+    align-items: center;
+}
+
+.hs1text{
+    text-align: center;
+    width: 50%;
+}
+
+.hs1text h5{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.hs1text span{
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.hs1text button{
+    font-size: 1.25rem;
+}
+
+.but1{
+    position: relative;
+    bottom: -2rem;
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.but1:hover{
+    cursor: pointer;
+}
+
+.signup{
+    margin-right: 0.5rem;
+}
+.signin{
+    margin-left: 0.5rem;
+}
+
+.hs1image{
+    height: 25rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image1{
+    background-image: url(Neymar-.png);
+    height: 20rem;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* herosec 2 */
+
+.herosec2{
+    height: 35rem;
+    width: 100%;
+    /* background-color: #9290C3; */
+    /* background-image: linear-gradient(to right bottom, #af90c3,#5e679f 50rem); */
+    display: flex;
+    align-items: center;
+}
+
+.hs2image{
+    height: 25rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image2{
+    background-image: url(steph.png);
+    height: 20rem;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs2text{
+    text-align: center;
+    width: 50%;
+}
+
+.hs2text h5{
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.hs2text span{
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Feat on */
+
+.feat{
+    height: 12rem;
+    width: 100%;
+    /* background-image: linear-gradient(to right top, #af90c3,#5e679f 20rem); */
+}
+
+.feattxt{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.brands{
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nike{
+    height: 7rem;
+    width: 12rem;
+    background-image: url(nike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adidas{
+    height: 12rem;
+    width: 14rem;
+    background-image: url(adidas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.puma{
+    margin-left: 2rem;
+    height: 12rem;
+    width: 14rem;
+    background-image: url(puma.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.under{
+    margin-left: 3rem;
+    height: 7.5rem;
+    width: 10rem;
+    background-image: url(under.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reebok{
+    margin-left: 3rem;
+    height: 6rem;
+    width: 20rem;
+    background-image: url(reebok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Join Now */
+
+.joinsec{
+    height: 20rem;
+    width: 100%;
+    /* background-image: linear-gradient(to right top, #af90c3,#5e679f 35rem); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner1{
+    height: 16rem;
+    width: 60%;
+    background-color: white;
+    border-radius: 3rem;
+    position: absolute;
+    text-align: center;
+}
+
+.ready{
+    margin-top: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.part{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.big{
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.but2{
+    position: relative;
+    bottom: -1rem;
+    height: 3.5rem;
+    width: 20rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    border: none;
+}
+
+.but2:hover{
+    cursor: pointer;
+}
+
+
+/* Testimonials*/
+
+.test{
+    padding-top: 5rem;
+    height: 45rem;
+    width: 100%;
+    /* background-image: linear-gradient(to right top, #af90c3,#5e679f 90rem); */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    height: 30rem;
+    width: 20rem;
+}
+
+
+.box{
+    padding: 1rem;
+    margin-left: 2.5rem;
+    height: 18rem;
+    width: 15rem;
+    background-color: white;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+}
+
+.cir{
+    margin-left: 7.5rem;
+    position: relative;
+    top: 3rem;
+    height: 7rem;
+    width: 7rem;
+    border: none;
+    border-radius: 7rem;
+}
+
+.img1{
+    background-image: url(man1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url(woman1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(man2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4{
+    background-image: url(woman2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Stay connected */
+.staycon{
+    height: 25rem;
+    width: 100%;
+    /* background-image: linear-gradient(to right bottom, #af90c3,#5e679f 35rem); */
+    display: flex;
+    align-items: center;
+}
+
+.aboutcom{
+    height: 25rem;
+    width: 25%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* background-color: pink; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutcom a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.logoab{
+    position: relative;
+    left: 1rem; 
+    background-image: url(logo.png);
+    height: 10rem;
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ac{
+    margin-top: 1rem;
+}
+
+.stayconnect{
+    height: 25rem;
+    width: 40%;
+    /* background-color: aqua; */
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding-left: 5rem;
+}
+
+.st{
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.but3:hover{
+    cursor: pointer;
+}
+
+.but3{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    height: 5rem ;
+    width: 5rem;
+    border-radius: 3rem;
+    border: none;
+    font-size: 2.5rem;
+}
+
+.newslet{
+    height: 25rem;
+    width: 30%;
+    /* background-color: pink; */
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.joinnews{
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.emailinp{
+    height: 3rem;
+    width: 70%;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.sub{
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.sub:hover{
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer{
+    height: 4rem;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

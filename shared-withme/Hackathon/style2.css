@@ -1,0 +1,298 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main{
+    display: flex;
+}
+
+/* Left sidebar */
+
+.company{
+    text-decoration: none;
+}
+
+.comppg{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.companytxt{
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 30%;
+    /* background-color: #b05f6d; */
+    /* background-image: linear-gradient(to bottom,#222831,#31363F,#76ABAE 40rem); */
+    /* background-image: linear-gradient(to bottom,#35374B,#344955,#50727B,#78A083 40rem); */
+    background-image: linear-gradient(to bottom,#35374B,#AAD9BB,#D5F0C1,#F9F7C9,#FFCF96 120rem);
+    border-right: 2px solid black;
+}
+
+.profile{
+    height: 100vh;
+    width: 70%;
+    /* background-color: #b05f6d; */
+    /* background-image: linear-gradient(to bottom,#222831,#31363F,#76ABAE 40rem); */
+    /* background-image: linear-gradient(to bottom,#35374B,#344955,#50727B,#78A083 40rem); */
+    background-image: linear-gradient(to bottom,#35374B,#AAD9BB ,#D5F0C1,#F9F7C9 ,#FFCF96 120rem);
+}
+
+.image{
+    background-image: url(logo.png);
+    height: 3.5rem;
+    width: 3.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons{
+    margin-left: 15%;
+    height: 40vh;
+    width: 70%;
+    display: grid;
+    margin-top: 4rem;
+}
+
+.but{
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.but:hover{
+    cursor: pointer;
+}
+
+/* Right Sidebar */
+
+
+
+.pic{
+    height: 12rem;
+    width: 12rem;
+    border: none;
+    border-radius: 7rem;
+    background-image: url(woman1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 10rem;
+    top: 3rem;
+}
+
+.box{
+    height: 3.5rem;
+    width: 20rem;
+    background-color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.box1{
+    height: 9rem;
+    width: 16rem;
+    padding: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.sp{
+    height: 4rem;
+    width: 10rem;
+    background-color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.intspt1{
+    height: 5rem;
+    width: 34rem;
+    position: relative;
+    left: 32rem;
+    top: -27rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intspt2{
+    height: 5rem;
+    width: 34rem;
+    position: relative;
+    left: 32rem;
+    top: -27rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name{
+    position: relative;
+    left: 6.5rem;
+    top: 4rem;
+}
+
+.joinedon{
+    position: relative;
+    left: 6.5rem;
+    top: 5rem;
+}
+
+.about{
+    position: relative;
+    left: 6.5rem;
+    top: 7rem;
+}
+
+.aboutp{
+    position: relative;
+    left: 6.5rem;
+    top: 8rem;
+}
+
+.interest{
+    position: relative;
+    left: 39rem;
+    top: -29rem;
+}
+
+.location{
+    position: relative;
+    top: -22rem;
+    left: 39rem;
+}
+
+.locationp{
+    position: relative;
+    top: -20rem;
+    left: 39rem;
+}
+
+.editbut{
+    height: 3rem;
+    width: 4rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background: none;
+    color: white;
+}
+
+.edit{
+    height: 3rem;
+    width: 4rem;
+    position: relative;
+    top: -53rem;
+    left: 60rem;
+}
+
+.editbut:hover{
+    cursor: pointer;
+}
+
+/* Expore CSS */
+.user{
+    height: 3rem;
+    width: 22rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    border-radius: 0.5rem;
+}
+
+.filters h6{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.filters p{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.filters{
+    height: 14rem;
+    width: 60%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 15%;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.userpic{
+    margin-left: 0.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 3.5rem;
+    background-image: url(woman1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.usertxt{
+    margin-left: 1rem;
+}
+
+.usernametxt{
+    font-size: 1.5rem;
+}
+
+.locationtxt{
+    font-size: 1rem;
+}
+
+.tables{
+    height: 50vh;
+    width: 70%;
+    padding: 1.5rem;
+    background-color: white;
+    position: relative;
+    top: 11.5rem;
+    left: 10rem;
+    border-radius: 0.5rem;
+}
+
+.filters input{
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    font-size: 1.25rem;
+}

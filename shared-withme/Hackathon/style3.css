@@ -1,0 +1,150 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*nav*/
+
+.navbar{
+    height: 5.5rem;
+    width: 100%;
+    /* background-image: linear-gradient(to right bottom,rgb(5, 5, 5) ,#392842 13rem); */
+    background-image: linear-gradient(to top,black,#F9F7C9 40rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*navlogo*/
+
+.logosec{
+    background-color: none;
+    height: 3.5rem;
+    width: 15%;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.image{
+    position: relative;
+    top: 0rem;
+    background-image: url(logo.png);
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logotext{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/*navlinks*/
+
+.linksec{
+    width: 30%;
+    background-color: none;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text1{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.user{
+    height: 5.5rem;
+    width: 14rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.userpic{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 3.5rem;
+    background-image: url(woman1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.username{
+    text-decoration: none;
+    color: white;
+}
+
+.usernametxt{
+    font-size: 1.5rem;
+}
+
+/* Main sec */
+
+main{
+    background-image: linear-gradient(to bottom,#35374B,#AAD9BB,#D5F0C1,#F9F7C9,#FFCF96 120rem);
+}
+
+.privacy{
+    padding-top: 3rem;
+    margin-left: 4rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.contentbox{
+    margin-top: 1rem;
+    height: 72.5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content{
+    height: 58vh;
+    width: 58%;
+    padding: 2rem;
+    font-size: 1rem;
+    background-color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.imagebox{
+    height: 66vh;
+    width: 25%;
+}
+
+.box1{
+    height: 31vh;
+    width: 100%;
+    background-image: url(Data_security_28.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2{
+    margin-top: 4vh;
+    height: 31vh;
+    width: 100%;
+    background-image: url(vecteezy_two-business-people-are-finalizing-the-agreement-terms-and_7942040-1.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

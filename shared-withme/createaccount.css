@@ -16,10 +16,6 @@ body {
     height: 100vh;
 }
 
-.left, .right {
-    width: 50%;
-}
-
 .left{
     height: 100%;
     width: 50%;
